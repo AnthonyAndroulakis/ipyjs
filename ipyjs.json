@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "ipyjs/extension": true
+  }
+}
