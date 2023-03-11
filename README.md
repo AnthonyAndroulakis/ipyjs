@@ -18,7 +18,7 @@ jupyter lab
 
 To view changes made in the typescript, reload the jupyter page. To view changes made in the python, restart the kernel.
 
-** if `yarn run watch` does not work, run the following:
+** if `yarn run watch` does not work, run the following instead:
 ```
 sudo npm i -g npm-run-all
 npm-run-all -p watch:*
