@@ -2,14 +2,24 @@
 
 ### Installation
 ```sh
-conda create -n ipyniivue-dev -c conda-forge nodejs yarn python jupyterlab
-conda activate ipyniivue-dev
-git clone --recurse-submodules https://github.com/niivue/ipyniivue.git
+conda create -n ipyjs-dev -c conda-forge nodejs yarn python jupyterlab
+conda activate ipyjs-dev
+git clone --recurse-submodules https://github.com/AnthonyAndroulakis/ipyjs.git
 cd ipyniivue
 yarn
 pip install -e .
-yarn run build
+yarn run watch
+```
+Then, in a separate cmd/terminal window:
+```sh
+conda activate ipyjs-dev
 jupyter lab
 ```
 
 To view changes made in the typescript, reload the jupyter page. To view changes made in the python, restart the kernel.
+
+** if `yarn run watch` does not work, run the following:
+```
+sudo npm i -g npm-run-all
+npm-run-all -p watch:*
+```
