@@ -4,7 +4,7 @@ ipyjs
 
 Version: |release|
 
-a Jupyter widget that lets you run JavaScript
+test
 
 
 Quickstart

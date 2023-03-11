@@ -59,8 +59,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'ipyjs'
-copyright = '2023, Anthony Androulakis'
-author = 'Anthony Androulakis'
+copyright = '2023, anthony'
+author = 'anthony'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -148,7 +148,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'ipyjs.tex', 'ipyjs Documentation',
-     'Anthony Androulakis', 'manual'),
+     'anthony', 'manual'),
 ]
 
 
@@ -175,7 +175,7 @@ texinfo_documents = [
      'ipyjs Documentation',
      author,
      'ipyjs',
-     'a Jupyter widget that lets you run JavaScript',
+     'test',
      'Miscellaneous'),
 ]
 

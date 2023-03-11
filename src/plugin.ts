@@ -1,4 +1,4 @@
-// Copyright (c) Anthony Androulakis
+// Copyright (c) anthony
 // Distributed under the terms of the Modified BSD License.
 
 import { Application, IPlugin } from '@lumino/application';

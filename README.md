@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/myorg/ipyjs/branch/master/graph/badge.svg)](https://codecov.io/gh/myorg/ipyjs)
 
 
-a Jupyter widget that lets you run JavaScript
+test
 
 ## Installation
 

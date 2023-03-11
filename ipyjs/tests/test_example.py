@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Copyright (c) Anthony Androulakis.
+# Copyright (c) anthony.
 # Distributed under the terms of the Modified BSD License.
 
 import pytest

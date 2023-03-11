@@ -7,12 +7,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ipyjs"
-description = "a Jupyter widget that lets you run JavaScript"
+description = "test"
 readme = "README.md"
 license = { file = "LICENSE.txt" }
 requires-python = ">=3.7"
 authors = [
-    { name = "Anthony Androulakis", email = "me@me.com" },
+    { name = "anthony", email = "me@me.com" },
 ]
 keywords = [
     "IPython",
@@ -33,6 +33,7 @@ classifiers = [
 ]
 dependencies = [
     "ipywidgets>=7.0.0",
+    "jupyter_ui_poll>=0.2.2"
 ]
 version = "0.1.0.dev0"
 
